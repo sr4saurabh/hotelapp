@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            ORDER PREPARING    
+        </title>
+    </head>
+    <body>
+        <p><h2>THESE FOOD ITEMS ARE BEING PREPARED, KEEP PATIENCE!! </h2></p>
+        
+        <hr>
+        <hr>
+        <hr>
+        <p></p>
+        <h3>ORDER NO. -->  FOOD ITEM</h3>
+        <div>
+                <% preparing.forEach(function(ORDER){ %>
+                    <div>
+                            <h4> <%= ORDER.nop %> --> <%= ORDER.namep %></h4>
+                                            
+                            <hr>
+                    </div>
+                    
+                <% }); %>
+        </div>
+        
+
+    </body>
+</html>

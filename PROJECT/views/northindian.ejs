@@ -1,0 +1,38 @@
+<% include partials/header2.ejs %>
+
+<div class="container">
+<header class="jumbotron">
+<div class="container">
+<h1>ENJOY THE NORTH INDIAN STUFFS THAT WE HAVE</h1>
+<p>YOUR FEEDBACK IS IMPORTANT FOR US SO PLEASE GIVE FEEDBACK AT <a href="">feedback.com</a></p>
+<p><a class="btn btn-primary btn-large" href="/campgrounds/new">ADD NEW FOOD ITEM</a></p>
+</div></header>
+
+
+<div class="row text-center" style="display:flex;flex-wrap:wrap;">
+
+ <% campgrounds.forEach(function(campground) {  %> 
+	<!-- var n=campground.name;
+	var c=campground.cost; -->
+ <div class="col-md-3 col-sm-6">
+ <div class=" img-thumbnail">
+  	<img src=" <%=  campground.image  %> " class="img-fluid"> 
+  	<div class="caption">
+	  <h4>  <%= campground.name %> </h4> 
+	 <p> <h4>  <%= campground.cost %> </h4></p>
+	 <form action="/addorder" method="POST">
+
+		<input type="text" name="name" value=<%=campground.name%>>
+		<input type="text" name="cost" value=<%=campground.cost%>>
+		<div class="form-group">
+	<button type="submit" class="btn btn-danger">Order Now</button></div>
+    </form>  
+  	</div>
+	 
+	</div>
+	 </div> 
+ <% }); %>
+ </div>
+ </div>
+  	
+ <% include partials/footer.ejs %>	

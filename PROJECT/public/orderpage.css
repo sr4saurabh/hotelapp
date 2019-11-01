@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+h4,h3{
+    color: rgb(248, 250, 252);
+	
+}
+.jumbotron
+{
+    background-image: url("https://www.oldstocksinn.com/images/content/standard-images/food-and-drink/food-and-drink-standard-11.jpg");
+    color: black;
+	
+}

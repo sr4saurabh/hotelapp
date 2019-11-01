@@ -1,0 +1,28 @@
+<% include partials/header3.ejs %>
+<div class="container">
+<header class="jumbotron">
+<div class="container">
+<h1>EAT HEALTHY BE HEALTHY....</h1>
+<p>Your order list is  as below --></p>
+<p><a class="btn btn-primary btn-large" href="/">RETURN HOME PAGE</a></p>
+</div></header>
+
+
+
+  <div>
+      
+          
+ <% orderdetails.forEach(function(campground) {  %> 
+ 
+  	
+      <h4>  <%= campground.name %>                                                                    <%= campground.cost %> </h4> 
+      <hr>
+  	
+	 
+	
+ <% }); %>
+     <h3>total payment is <%= tp %></h3>
+
+ </div>
+  	
+ <% include partials/footer.ejs %>	

@@ -1,0 +1,49 @@
+
+    <%<head>
+        <%<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">%>
+
+        <%<title></title>%>
+        <%</head>%>
+        <%<body>%>
+            <%<nav class="navbar navbar-inverse">%>
+                <%<div class="container-fluid">%>
+                    <%<div class="navbar-header">%>
+                        <%<a class="navbar-brand" href="#">MAIN MENU HOME</a>%>
+                        <%</div>
+                        <%<ul class="nav navbar-nav">%>
+      
+                            <% <li><a href="#">YOUR ORDER SUMMARY</a></li>%>
+                            <%<li><a href="#">ORDER TIME DETAILS</a></li>%>
+                            <%</ul>%>
+                            <%<ul class="nav navbar-nav navbar-right">%>
+                                <% <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>%>
+                                <%<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>%>
+                                <%</ul>%>
+                                <%</div>%>
+                                <%</nav>%>
+                                <%<div class="jumbotron">%>
+                                    <%<h1 class="display-4">Chinese food has always been tasty nd satisfying!!</h1>%>
+                                    <%<p class="lead">try something new or have your usuals!we ll be happy to serve!!</p>%>
+                                    <%<hr class="my-4">%>
+
+                                    <%</p>%>
+                                    <%</div>%>
+                                    <%<h1>We have got  <strong>>--->></strong> </h1>%>
+                                    <div class="row text-center" style="display:flex;flex-wrap:wrap;">
+
+                                        <% campgrounds.forEach(function(campground) {  %> 
+                                        <div class="col-md-3 col-sm-6">
+                                        <div class=" img-thumbnail">
+                                             <img src=" <%=  campground.image  %> " class="img-fluid"> 
+                                             <div class="caption">
+                                             <h4>  <%= campground.name %> </h4> 
+                                             </div>
+                                            
+                                           </div>
+                                            </div> 
+                                        <% }); %>
+                                        </div>
+                                        </div> 
+	
+                                    <%</body>%>
+                                    

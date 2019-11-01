@@ -1,0 +1,23 @@
+body {
+   
+    background-image: url("https://d15mf78ra0s5rl.cloudfront.net/technomic/files/public/2017-03/background/restaurant.jpg");
+    
+  }
+  #login .container #login-row #login-column #login-box {
+   
+    border: 1px solid rgb(15, 15, 15);
+    background-image: url("https://d15mf78ra0s5rl.cloudfront.net/technomic/files/public/2017-03/background/restaurant.jpg");
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+    
+    
+  }
+  h2{
+      font-style: italic;
+      color: black;
+      background-color: whitesmoke;
+  }

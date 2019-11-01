@@ -1,0 +1,32 @@
+a{
+	margin-left: 30px;
+	color:white;
+}
+nav{
+	background-image: url("https://wallpapershome.com/images/wallpapers/burger-3840x2160-steak-fire-fast-food-pepper-5k-17806.jpg");
+	color: white;
+}
+body{
+	background-color: black;	
+}
+hr{
+	border-width: 2px;
+}
+.jumbotron {
+	background-image: url("https://thumbs.dreamstime.com/z/plate-tuna-sandwich-served-crisp-5460638.jpg");
+	color: white;
+}
+h6,h5{
+
+	color: rgb(204, 0, 0);
+	background-color: white;
+	font-family: cursive;
+	margin: 0 auto;
+}
+li{
+	/*background-image: url("https://thumb9.shutterstock.com/display_pic_with_logo/1054405/509411788/stock-photo-catering-table-set-service-various-snacks-on-a-table-at-banquet-set-of-cold-snacks-canape-509411788.jpg");*/
+
+}
+ul{
+	color: black;
+}
